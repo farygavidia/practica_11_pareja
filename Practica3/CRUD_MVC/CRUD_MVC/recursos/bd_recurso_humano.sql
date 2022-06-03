@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-06-2022 a las 05:34:58
+-- Tiempo de generación: 03-06-2022 a las 23:22:38
 -- Versión del servidor: 10.4.24-MariaDB
--- Versión de PHP: 8.1.6
+-- Versión de PHP: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -28,9 +28,6 @@ USE `bd_recurso_humano`;
 --
 -- Estructura de tabla para la tabla `tb_persona`
 --
--- Creación: 01-06-2022 a las 01:15:26
--- Última actualización: 02-06-2022 a las 03:29:33
---
 
 CREATE TABLE `tb_persona` (
   `id` int(15) NOT NULL,
@@ -44,9 +41,8 @@ CREATE TABLE `tb_persona` (
 --
 
 INSERT INTO `tb_persona` (`id`, `dui_persona`, `apellidos_persona`, `nombres_persona`) VALUES
-(1, '20145879-8', 'Crespin', 'Jonathan'),
-(2, '45789658-2', 'Turcios', 'Ruby'),
-(4, '78521469-8', 'Morales', 'Jaqueline');
+(7, '06411260-7', 'Gamez Lainez', 'Javier Alexander'),
+(8, '0647574-4', 'Gavidia Cortez', ' Farina Lisbeth');
 
 --
 -- Índices para tablas volcadas
@@ -66,7 +62,7 @@ ALTER TABLE `tb_persona`
 -- AUTO_INCREMENT de la tabla `tb_persona`
 --
 ALTER TABLE `tb_persona`
-  MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -91,8 +91,8 @@
 
       <!-- Modal body -->
       <div class="modal-body">
-          Manuel Alfredo Alvarado Rivera<br>
-          Jennifer Guadalupe Surio Ramírez<br>
+          Farina Lisbeth Gavidia Cortez<br>
+          Javier Alexander Gamez Lainez<br>
       </div>
 
       <!-- Modal footer -->
